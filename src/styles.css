@@ -1,0 +1,47 @@
+.App {
+  font-family: cursive;
+  text-align: center;
+}
+body {
+  background-color: skyblue;
+}
+
+input {
+  border: 2px solid blue;
+  border-radius: 15px;
+  width: 350px;
+  height: 20px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  position: relative;
+  top: 48px;
+  left: -198px;
+  cursor: pointer;
+  background-color: skyblue;
+  border-radius: 10px;
+}
+button:hover {
+  background-color: lightblue;
+}
+button:active,
+button:focus {
+  outline: none;
+}
+.ul {
+  margin-top: 66px;
+  display: inline-block;
+  width: 350px;
+  margin-right: 35px;
+  border-radius: 10px;
+}
+li {
+  margin-bottom: 5px;
+  background-color: orange;
+  list-style: none;
+  color: darkgreen;
+  cursor: pointer;
+  border-radius: 10px;
+}
